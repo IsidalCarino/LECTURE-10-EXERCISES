@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     cout << "1 to 50 Increments of 1\n\n";
-    for (int x = 0; x <= 50; x++) {
+    for (int x = 1; x <= 50; x++) {
         cout << x << "\n";
     }
     return 0;
@@ -14,6 +14,16 @@ int main()
 ```
 #50 to 1 decrements of 1
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "50 to 1 decrements of 1\n\n";
+    for (int x = 50; x >= 1; x--) {
+        cout << x << "\n";
+    }
+    return 0;
+}
 ```
 #30 to 50 increments of 1
 ```
