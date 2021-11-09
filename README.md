@@ -40,9 +40,29 @@ int main()
 ```
 #50 to 10 decrements of 2
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "50 to 10 decrements of 2\n\n";
+    for (int x = 50; x >= 10; x-=2) {
+        cout << x << "\n";
+    }
+    return 0;
+}
 ```
 #100 to 200 increments of 5
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "100 to 200 Increments of 5\n\n";
+    for (int x = 100; x <= 200; x+=5) {
+        cout << x << "\n";
+    }
+    return 0;
+}
 ```
 # Lecture 10, Slide 12, Iterate through a word
 ```
