@@ -1,7 +1,7 @@
 # Lecture 10, Slide 10, Some Counting
 ```
 ```
-#Lecture 10, Slide 12, Iterate through a word
+# Lecture 10, Slide 12, Iterate through a word
 ```
 ```
 # 7 Stars, 7 Lines
