@@ -66,6 +66,14 @@ int main()
 ```
 # Lecture 10, Slide 12, Iterate through a word
 ```
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string myWord = "ARSH";
+    cout << myWord.at(0) << endl << myWord.at(1) << endl << myWord.at(2) << endl << myWord.at(3) << endl;
+}
 ```
 # 7 Stars, 7 Lines
 ```
