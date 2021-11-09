@@ -27,6 +27,22 @@ int main()
 ```
 #30 to 50 increments of 1
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "30 to 50 Increments of 1\n\n";
+    for (int x = 30; x <= 50; x++) {
+        cout << x << "\n";
+    }
+    return 0;
+}
+```
+#50 to 10 decrements of 2
+```
+```
+#100 to 200 increments of 5
+```
 ```
 # Lecture 10, Slide 12, Iterate through a word
 ```
