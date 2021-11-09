@@ -157,4 +157,18 @@ int main()
 ```
 # Find the 9s
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 0;
+    cout << "Numbers between 100 to 200 that are divisible by 9 are... \n";
+    cout << endl;
+    for (int y = 100; y < 200; y++) {
+        if (y % 9 == 0) {
+            cout << y << endl;
+            x = x + y;
+        }
+    }
+}
 ```
