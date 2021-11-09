@@ -141,6 +141,19 @@ int main()
 ```
 # Cubes
 ```
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x, y, z;
+    cout << "Input number (it will find it's cube): \n";
+    cin >> y;
+    for (x = 1; x <= y; x++)
+    {
+        z = x * x * x;
+        cout << "Number is " << x << " and the cube of " << x << " is " << z << endl;
+    }
+}
 ```
 # Find the 9s
 ```
